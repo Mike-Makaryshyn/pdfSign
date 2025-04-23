@@ -101,6 +101,7 @@ function App() {
                      bottom: "0",
                      margin: "auto 0",
                      border: "1px dashed gray",
+                     height: "40px",
                   }}
                />
             )}
