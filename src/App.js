@@ -16,7 +16,7 @@ function App() {
    const [isDragging, setIsDragging] = useState(false);
    const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
 
-   console.log(process.env.VITE_TEST);
+   console.log(import.meta.env.VITE_TEST);
    
    // Функція для очищення підпису
    const clear = () => sigCanvas.current.clear();
